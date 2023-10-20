@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Add CSS styling here to ensure proper rendering in email clients */
+        .email-card {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .logo {
+            max-width: 100px;
+            margin: 0 auto;
+            display: block;
+        }
+        .paragraph {
+            font-size: 16px;
+            margin: 20px 0;
+        }
+        .button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-card">
+        <img class="logo" src="uploads/logo.png" alt="Company Logo">
+        <p class="paragraph">Thank you for using our services. Please verify your email to continue.</p>
+        <a class="button" href="{{BUTTON_URL}}">Verify Email</a>
+    </div>
+</body>
+</html>
