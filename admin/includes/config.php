@@ -22,3 +22,5 @@ if (!$connection_string == true) {
     echo "connection not susccessful";
 }
 $supportError="Something went Wrong Please Contact To Support";
+define('Api-Key', "aab4705b729e4d08bf639a337a501aee");
+define('api_base_url', $base_url);

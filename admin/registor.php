@@ -22,6 +22,7 @@ if (isset($_POST['submit'])) {
                 if ($userRegistorResponse) {
                     $_SESSION['userEmail'] = $email;
                     $_SESSION['user_login'] = true;
+                    session_name("user_" . $_SESSION['userId']);
                     header('Location:verifyEmail.php');
                 }
             } else {
