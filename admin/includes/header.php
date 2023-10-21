@@ -29,6 +29,8 @@ if (!isset($_SESSION['userId'])) {
     <link href="<?= $base_url ?>/plugins/animate/animate.css" rel="stylesheet" type="text/css" />
     <link href="<?= $base_url ?>/assets/css/components/custom-modal.css" rel="stylesheet" type="text/css" />
     <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
